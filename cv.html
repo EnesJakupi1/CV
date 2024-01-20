@@ -3,16 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <style>
+
+        body{
+            margin: 0px;
+        }
+        .header{
+            background-color: #FCDEC0;
+            border-bottom: #B4846C 10px solid;
+          
+        }
+
+        .header-text{
+            color: #7D5A50;
+            padding: 0;
+        }
+
+        .header td{
+            padding: 0px;
+            margin: 10px;
+            height: 100%;
+        }
+
+        audio{
+            width: 96.5%;
+            background-color: #B4846C ;
+            display: block;
+            padding: 12px;
+        }
+
+        .bio{
+            padding: 20px 0px;
+            color: #7D5A50;
+        }
+        
+         td>p{
+            color: #7D5A50;
+        }
+
+        .langs-text{
+            margin-top: -8px;
+            padding: 10px 0px 10px 0px;
+        }
+
+        .langs{
+            color:#E5B299 ;
+             margin-top: -20px ;
+             margin-bottom: -10px;
+             
+        }
+
+        .footer tr td{
+            color: #7D5A50;
+        }
+
+       .map{
+        margin: 0px;
+        border-bottom: 12px solid #7D5A50;
+        padding : 0px;
+       }
+
+       .social a{
+        border-bottom: #7D5A50 0.5px solid;
+       }
+
+       .social a:hover{
+        border-bottom: #B4846C 3px solid;
+        
+       }
+         
+    </style>
 </head>
-<body bgcolor="DarkSeaGreen">
-    <table align="center" width="600" border="1" cellpadding="">
+<body>
+    <table class="header" align="center" width="600" cellpadding="0" cellspacing="0">
         <tr align="center">
             <td valign="top">
-                <img src="assets/foto.jpeg" alt="" width="100%" height="250">
+                <img  src="assets/foto.jpeg" alt="" width="100%" height="280">
             </td>
-            <td align="center">
+            <td class="header-text" align="center">
                 <h1>Enes Jakupi</h1>
+                
                 <cite>Confusion is part of programming. ― Felienne Hermans</cite>
             </td>
         </tr>
@@ -22,43 +94,42 @@
         <td>
             <p>While you are reading I have something to relax you</p>
             <audio controls loop autoplay muted>
-                <source src="assets/5 Minutes of Rain and Thunderstorm Sounds For Focus, Relaxing and Sleep  Epidemic ASMR.mp3">
+                <source src="assets/5 Minutes of Rain and Thunderstorm.mp3">
 
             </audio>
-            <p>Jam i lindur me <i>19/02/2008</i> ne Presheve. Jam ne gjimnazin e qytetit "Skenderbeu" dhe kam nje mesatare te shkelqyeshme. Jam finalist i programit <b>FLEX </b> i cili eshte ne program qe i dergon gjimnazistat per nje vite ne USA.Jam shume i pasionuar pas sporteve  sidomos  baskebollin. Lexoje shume libra te kategorive te ndryshme ku ne vitin 2024 e kam goal te lexoj 50 libra. Disa nga ata: <strong>Ikigai, How To Win Friends And Influence People, The Secret,An apartement on Paris.</strong></p> 
+            <p class="bio">Jam i lindur me <i>19/02/2008</i> ne Presheve. Jam ne gjimnazin e qytetit "Skenderbeu" dhe kam nje mesatare te shkelqyeshme. Jam finalist i programit <b>FLEX </b> i cili eshte ne program qe i dergon gjimnazistat per nje vite ne USA.Jam shume i pasionuar pas sporteve  sidomos  baskebollin. Lexoje shume libra te kategorive te ndryshme ku ne vitin 2024 e kam goal te lexoj 50 libra. Disa nga ata: <strong>Ikigai, How To Win Friends And Influence People, The Secret,An apartement on Paris.</strong></p> 
 
             <p>Jam student i Bootcamp 10 me ligjirues Ylber Veliun.Me mbarimin e ketij kursi do te kem te jem nje Full Stack Developer dhe shpresoj ne te ardhme te kem kete drejtim dhe te gjej pune  </p>
-
-            <p>Njohurite te cilat i kam si student i ketij Bootcamp jane:</p>
+            <p class="langs-text">Njohurite te cilat i kam si student i ketij Bootcamp jane:</p>
         </td>
-        <table align="center" width="600">
+        <table class="langs" align="center" width="600">
             <tr>
                 <td>
                     <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>SASS</li>
+                        <li>HTML5 <i class="devicon-html5-plain colored"></i></li>
+                        <li>CSS3 <i class="devicon-css3-plain colored"></i></li>
+                        <li>SASS <i class="devicon-sass-original colored"></i></li>
                     </ul>
                 </td>
                 <td>
                     <ul>
-                        <li>BOOTSTRAP</li>
-                        <li>JAVASCRIPT</li>
-                        <li>REACT</li>
+                        <li>BOOTSTRAP <i class="devicon-bootstrap-plain colored"></i></li>
+                        <li>JAVASCRIPT <i class="devicon-javascript-plain colored"></i></li>
+                        <li>REACT <i class="devicon-react-original colored"></i></li>
                     </ul>
                 </td>
                 <td>
                     <ul>
-                        <li>PHP</li>
-                        <li>LARAVEL</li>
-                        <li>PYTHON</li>
+                        <li>PHP <i class="devicon-php-plain colored"></i></li>
+                        <li>LARAVEL <i class="devicon-laravel-plain colored"></i></li>
+                        <li>PYTHON <i class="devicon-python-plain colored"></i></li>
                     </ul>
                 </td>
                 <td>
                     <ul>
-                        <li>DJANGO</li>
-                        <li>GIT</li>
-                        <li>GITHUB</li>
+                        <li>DJANGO <i class="devicon-django-plain colored"></i></li>
+                        <li>GIT <i class="devicon-git-plain colored"></i></li>
+                        <li>GITHUB <i class="devicon-github-original colored"></i></li>
                     </ul>
                 </td>
 
@@ -78,11 +149,11 @@
     </table>
 
     
-        <table align="center" width="600">
+        <table  align="center" width="600">
 
            
            
-            <tr>
+            <tr class="social">
                 <td>
                     <a href="https://instagram.com/" target="_blank">
                         <img src="assets/instagram.png" alt="" width="100%">
@@ -107,7 +178,7 @@
           
         </table>
 
-        <table align="center" width="600">
+        <table class="footer" align="center" width="600">
             <tr>
                 <td>
                     Klikoni me poshte per te gjetur adresen time personale
@@ -115,12 +186,9 @@
             </tr>
             <tr>
 
-                <td> 
+                <td class="map"> 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47204.091055362245!2d21.612992266099255!3d42.315744845059264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354f7e4c0da0fd1%3A0x3b633443b6fb680d!2zUHJlxaFldm8!5e0!3m2!1sen!2srs!4v1705488903568!5m2!1sen!2srs" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
-                </td>
-
-               
-                
+                </td>   
             </tr>
         </table>
 
