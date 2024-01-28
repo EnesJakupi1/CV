@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+ }
+
+ body{
+   background-image: url('assets/contact.jpg');
+ }
+
+ form{
+    width: 400px;
+    padding: 20px;
+    border: 5px solid #643843;
+    margin:  28px  auto;
+    background-color: #FDF0D1;
+ }
+
+
+
+ form > h1{
+   text-align: center;
+   color: #85586F;
+   margin: 6px;
+ }
+
+ div {
+   margin-bottom: 40px;
+ }
+
+ label{
+   display: block;
+   margin-bottom: 8px;
+   font-weight: 300;
+   font-size: 18px;
+}
+
+input{
+   width: 100%;
+   background-color: transparent;
+   border: 0px;
+   border-bottom: 3px solid #85586F;
+}
+
+input:focus {
+   padding: 6px;
+   border: 2px solid #503C3C;
+   outline: none; /* Remove default blue outline on focus */
+   
+
+   -webkit-box-shadow: 7px 13px 51px -10px rgba(80,60,60,1);
+   -moz-box-shadow: 7px 13px 51px -10px rgba(80,60,60,1);
+    box-shadow: 7px 13px 51px -10px rgba(80,60,60,1);
+    border-radius: 7px;
+
+   
+}
+
+button{
+   margin-left: 97px;
+   display: inline-block;
+   padding: 12px 50px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   border: 2px solid #643843; /* Border color */
+   color: #643843; /* Text color */
+   background-color: #fff; /* Background color */
+   border-radius: 5px; /* Border radius for rounded corners */
+   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  background: linear-gradient(144deg, #503C3C, #85586F 50%, #FDF0D1 ); 
+
+  
+  
+}
+
+
+button:hover{
+   background-color: #643843;
+   border: 2px solid #fff;
+   color: #fff;
+
+   background: linear-gradient(144deg, #FDF0D1, #85586F 50%, #503C3C ); 
+   transition: all 0.4s ease;
+}
